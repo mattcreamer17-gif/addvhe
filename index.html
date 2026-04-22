@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>AddVHE × Eduba</title>
+<meta name="description" content="A read on where AI belongs inside the AddVHE platform, and where a documented manual step is still the defensible answer. Prepared for the booth at eMerge." />
+<link rel="icon" type="image/svg+xml" href="logo.svg" />
+<link rel="preconnect" href="https://rsms.me/" />
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap top__inner">
+    <a class="logo" href="#" aria-label="AddVHE">
+      <img src="logo.svg" alt="AddVHE" />
+    </a>
+    <div class="filenote" aria-hidden="true">
+      <span class="filenote__label">Prepared</span>
+      <span class="filenote__value">Booth 1213 / eMerge</span>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="wrap">
+      <div class="eyebrow">
+        <span class="dot"></span>
+        <span>A private note for the AddVHE team</span>
+      </div>
+      <h1 class="hero__h1">
+        A read on where AI belongs inside the AddVHE platform. And where a documented manual step is still the defensible answer.
+      </h1>
+      <p class="hero__lede">
+        Personal-injury litigation, Medicare Set-Aside projections, Fair Market Value calculations, and a Life Care Planner Assistant Bot that has to hold up in deposition. This page is a short note on what Matt Creamer from Eduba saw on the platform this week, and the one specific first conversation he would like to have.
+      </p>
+      <div class="hero__meta">
+        <div class="meta-cell">
+          <span class="meta-cell__label">Subject</span>
+          <span class="meta-cell__value">AddVHE, addvhe.com</span>
+        </div>
+        <div class="meta-cell">
+          <span class="meta-cell__label">Prepared by</span>
+          <span class="meta-cell__value">Matt Creamer, Eduba</span>
+        </div>
+        <div class="meta-cell">
+          <span class="meta-cell__label">Scope</span>
+          <span class="meta-cell__value">Orchestration &amp; audit architecture</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--frame">
+    <div class="wrap">
+      <div class="section__head">
+        <span class="num">01</span>
+        <h2>The Eduba frame</h2>
+      </div>
+
+      <p class="body">
+        Eduba works on a simple idea. Most platforms automate the wrong things. The job of the consultant is to sort a product into the layer each piece actually belongs on, then intervene where the cost of confusion is highest.
+      </p>
+
+      <div class="layers">
+        <article class="layer">
+          <div class="layer__bar"><span class="layer__pct">60%</span></div>
+          <h3 class="layer__h">Traditional code and database work</h3>
+          <p class="layer__body">Fee-schedule storage. Cross-walk tables. Case record structure. Audit logs. The parts of AddVHE that should be predictable, fast, and well-indexed.</p>
+        </article>
+        <article class="layer">
+          <div class="layer__bar layer__bar--mid"><span class="layer__pct">30%</span></div>
+          <h3 class="layer__h">Rule-based logic</h3>
+          <p class="layer__body">Eligibility checks. Code bundling. NCCI validation. Medicare Set-Aside calculation steps. Deterministic rules that carry a paper trail by construction.</p>
+        </article>
+        <article class="layer">
+          <div class="layer__bar layer__bar--ai"><span class="layer__pct">10%</span></div>
+          <h3 class="layer__h">Genuine AI problem</h3>
+          <p class="layer__body">The Life Care Planner Assistant Bot. Anomaly detection on fee-schedule drift. Narrative generation that has to hold up under cross-examination.</p>
+        </article>
+      </div>
+
+      <p class="body">
+        The first engagement is a written map. No new software, no migration. The founding team uses it to prioritize the next two quarters of engineering against the places where hidden risk actually sits.
+      </p>
+    </div>
+  </section>
+
+  <section class="section section--hyp">
+    <div class="wrap">
+      <div class="section__head">
+        <span class="num">02</span>
+        <h2>What stood out on the platform this week</h2>
+      </div>
+
+      <ol class="findings">
+        <li class="finding">
+          <h3 class="finding__h">The Life Care Planner Assistant Bot needs a defensible audit trail.</h3>
+          <p class="finding__body">
+            The bot is the most visible AI surface on AddVHE. The hard problem is not making it respond. The hard problem is making its answer reconstructable under deposition: which fee schedules it drew on, which prompt version produced the output, which reviewer edited what, and when. An orchestration-layer intervention solves that without rebuilding the bot.
+          </p>
+        </li>
+        <li class="finding">
+          <h3 class="finding__h">Fee-schedule ingestion is silent-failure territory.</h3>
+          <p class="finding__body">
+            Medicare, Medicaid, VA, and BLS update on different cadences. At a small team, this pipeline tends to live in engineering bug tickets no one owns directly. A two-week audit of the ingestion and change-tracking workflow catches the silent breakages before the first enterprise customer does.
+          </p>
+        </li>
+        <li class="finding">
+          <h3 class="finding__h">Positioning spread is costing sales cycles.</h3>
+          <p class="finding__body">
+            The home page talks about "healthcare pricing." The eMerge 2025 exhibitor listing talks about "personal injury litigation." The buyer list spans lawyers, insurers, hospitals, and PE investors. That breadth slows every individual door. A short positioning audit clears it.
+          </p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section section--case">
+    <div class="wrap">
+      <div class="section__head">
+        <span class="num">03</span>
+        <h2>The relevant case study</h2>
+      </div>
+
+      <div class="case">
+        <div class="case__meta">
+          <span class="case__tag">VigilOre</span>
+          <span class="case__sub">Multi-agent compliance platform</span>
+        </div>
+
+        <p class="case__body">
+          VigilOre is a multi-agent compliance platform Eduba built for a regulated-industry customer. The delivery compressed 160+ hours of compliance work per event into under five minutes, with a full audit trail. AddVHE's deposition-ready reporting is the same shape of problem: documented, reproducible, auditable outputs that stand up to adversarial review.
+        </p>
+
+        <dl class="case__stats">
+          <div class="stat">
+            <dt>Compliance workload per event</dt>
+            <dd><span class="stat__from">160+ hours</span><span class="stat__arrow">→</span><span class="stat__to">&lt; 5 minutes</span></dd>
+          </div>
+          <div class="stat">
+            <dt>Audit trail</dt>
+            <dd><span class="stat__to">Full, reconstructable</span></dd>
+          </div>
+          <div class="stat">
+            <dt>Engagement shape</dt>
+            <dd><span class="stat__to">Audit first, scope forward</span></dd>
+          </div>
+        </dl>
+
+        <p class="case__note">
+          The AddVHE opening engagement would likely start smaller than VigilOre and scale based on what the audit surfaces.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--paper">
+    <div class="wrap">
+      <div class="section__head">
+        <span class="num">04</span>
+        <h2>The relevant paper</h2>
+      </div>
+
+      <div class="paper">
+        <div class="paper__left">
+          <p class="paper__kicker">Peer-reviewed / arXiv</p>
+          <h3 class="paper__h">Ethics Engine.</h3>
+          <p class="paper__sub">A psychometric assessment tool for evaluating ideological and moral patterns in LLMs. Open source under MIT license.</p>
+          <p class="paper__body">
+            The methodology is directly useful when a platform plans to defend AI outputs in a legal or regulatory venue. For AddVHE, that is the entire context in which the Life Care Planner Assistant Bot operates.
+          </p>
+        </div>
+        <div class="paper__right">
+          <div class="paper__link">
+            <span class="paper__linklabel">Paper</span>
+            <a class="paper__linkval" href="https://arxiv.org/abs/2510.11742" target="_blank" rel="noopener">arxiv.org/abs/2510.11742</a>
+          </div>
+          <div class="paper__link">
+            <span class="paper__linklabel">Repository</span>
+            <a class="paper__linkval" href="https://github.com/RinDig/AuditEngine" target="_blank" rel="noopener">github.com/RinDig/AuditEngine</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--cred">
+    <div class="wrap">
+      <div class="section__head">
+        <span class="num">05</span>
+        <h2>Credibility</h2>
+      </div>
+
+      <ul class="cred">
+        <li><span class="cred__k">Founder</span><span class="cred__v">Jake Van Clief. Marine Corps veteran. MSc Future Governance, University of Edinburgh.</span></li>
+        <li><span class="cred__k">Published</span><span class="cred__v">ACM TiiS (Interpretable Context Methodology). arXiv (Ethics Engine).</span></li>
+        <li><span class="cred__k">Trained</span><span class="cred__v">1,500+ enterprise learners since May 2025 across Pacific Life and Colgate-Palmolive (via Correlation One) and KPMG UK, one of the Big Four.</span></li>
+        <li><span class="cred__k">Partnership</span><span class="cred__v">Eduba partners with NLP Logix for work that sits below the orchestration layer. NLP Logix has been in machine learning since 2011 and runs over 150 data scientists.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="wrap">
+      <div class="cta__card">
+        <span class="cta__eyebrow">Next step</span>
+        <h2 class="cta__h">Thirty minutes with Matt.</h2>
+        <p class="cta__body">
+          Bring the most recent Life Care Planner Assistant Bot output that prompted a reviewer correction. We will walk the chain backward together and scope one deliverable from what we find.
+        </p>
+        <a class="cta__btn" href="https://calendly.com/thecro-eduba/30min" target="_blank" rel="noopener">
+          <span>Book the thirty minutes</span>
+          <span class="cta__arrow" aria-hidden="true">→</span>
+        </a>
+        <p class="cta__fine">Matt Creamer, CRO, Eduba. calendly.com/thecro-eduba/30min</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__inner">
+    <span class="foot__left">Prepared by Eduba, eduba.io</span>
+    <span class="foot__right">For AddVHE. Booth 1213.</span>
+  </div>
+</footer>
+
+</body>
+</html>
